@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/6d793a6d49.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Grigorios Kaframanis</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Header Navigation Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+      <header class="header">
+        <div class="header__favicon">
+          <img src="img/favicon/android-chrome-512x512.png" alt="G.Kaframanis-favicon" />
+        </div>
+        <nav class="header__nav">
+          <div class="header__nav--hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="header__nav--links">
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Showcase Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+        <section class="showcase">
+          <div class="showcase__left">
+            <img
+              class="u-margin-bottom-medium"
+              title="G.Kaframanis Profile Picture"
+              src="img/my_profile_image.jpg"
+              alt="G.Kaframanis Profile Picture"
+            />
+            <h1 class="heading-primary heading-primary--profile">Grigorios Kaframanis</h1>
+          </div>
+          <div class="showcase__right">
+            <h1 class="heading-primary u-margin-bottom-big">
+              <span class="heading-primary--main u-margin-bottom-small">I'm a Programmer</span>
+              <span class="heading-primary--sub">Web & Software Developer</span>
+            </h1>
+          </div>
+        </section>
+
+        <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Bio Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+
+        <section class="bio" id="bio">
+          <header class="bio__title u-margin-bottom-medium">
+            <i class="fas fa-feather-alt bio__icon"></i>
+            <h2 class="heading-secondary">Mini Bio</h2>
+          </header>
+
+          <div class="bio__text">
+            <p class="paragraph">
+              I was born in Thessaloniki and at the age of 7 I moved to Lamia. I graduated from the 3rd high school of
+              Lamia with the grade 19.3 / 20 but at that point I had no clue what I wanted to do with my life, so I
+              ended up studying Civil Engineering in the Aristotle University of Thessaloniki. It didn't take much time
+              to realize that this wasn't the path I was supposed to follow. I just couldn't see myself as a civil
+              enginner for the rest of my life, but there still wasn't something else that I was feeling passionate
+              about. It took me some time to discover my love for computers, internet, programming and computer science
+              in general. That was what I wanted to study. So I gave the exams once again and I entered first in the
+              departent of Computer Science and Biomedical Informatics of the University of Thessalia, from where I got
+              my bachelor's degree with the grade 8.06 / 10.
+            </p>
+          </div>
+        </section>
+
+        <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Education Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+
+        <section class="education" id="education">
+          <div class="education__left">
+            <ion-icon class="education__left-icon" name="school"></ion-icon>
+            <h2 class="heading-secondary">Education</h2>
+          </div>
+          <div class="education__right">
+            <h3 class="heading-tertiary u-margin-bottom-small">Computer Science and Biomedical Informatics</h3>
+            <p class="paragraph">
+              The Department of Computer Science and Biomedical Informatics operates since the academic year 2004-2005.
+              It is an innovative department in the field of applied sciences as it covers a wide range of areas, both
+              in the field of Informatics and in the field of its applications in Biomedicine. The students receive a
+              strong background in the broader IT section as well as in the development of Health Information Systems
+              and software for public/private medical units and organization.
+            </p>
+            <div>
+              <a href="img/degree.jpg" target="_blank" class="btn btn--yellow">View Degree</a>
+            </div>
+          </div>
+
+          <div class="education__carousel">
+            <div class="gallery">
+              <header class="gallery__header">
+                <h2 class="heading-secondary">Certificates</h2>
+              </header>
+              <div class="gallery__carousel">
+                <i class="fas fa-caret-left gallery__carousel--buttons left-btn"></i>
+                <div class="gallery__carousel--images" id="imgs">
+                  <img src="img/certificate-1.jpg" alt="Build Responsive Real World Websites with HTML5 and CSS3"/>
+                  <img src="img/certificate-2.jpg" alt="Advanced CSS and Sass: Flexbox, Grid, Animations and More!" />
+                  <img src="img/certificate-3.jpg" alt="Django 3 - Full Stack Websites with Python Web Development" />
+                  <img src="img/certificate-4.jpg" alt="100 Days of Code - The Complete Python Pro Bootcamp for 2021" />
+                </div>
+                <i class="fas fa-caret-right gallery__carousel--buttons right-btn"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Skills Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+
+        <section class="section-skills" id="skills">
+          <header class="skills__header">
+            <i class="fas fa-laptop-code"></i>
+            <h3 class="heading-tertiary">Skills</h3>
+          </header>
+          <div class="skills">
+            <div class="skill__box">
+              <h4 class="heading-quartenary">HTML / CSS</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__1"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">JavaScript</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__2"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">Node.JS</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__3"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">Python</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__4"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">Django</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__5"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">C</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__6"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">C++</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__7"></span>
+              </div>
+            </div>
+
+            <div class="skill__box">
+              <h4 class="heading-quartenary">SQL, MySQL</h4>
+              <div class="skill__box--progress">
+                <span class="skill__box--progress__8"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Interests Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+
+        <section class="interests" id="interests">
+          <header class="interests__header">
+            <i class="fas fa-running"></i>
+            <h2 class="heading-secondary">Interests</h2>
+          </header>
+          <div class="interests__box">
+            <div class="interests__box--1">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">Sports</h3>
+              </div>
+            </div>
+            <div class="interests__box--2">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">PC repairing</h3>
+              </div>
+            </div>
+            <div class="interests__box--3">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">Hiking</h3>
+              </div>
+            </div>
+            <div class="interests__box--4">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">Reading Books</h3>
+              </div>
+            </div>
+            <div class="interests__box--5">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">Travelling</h3>
+              </div>
+            </div>
+            <div class="interests__box--6">
+              <div class="interests__box--content">
+                <h3 class="heading-tertiary">Sketching</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Footer Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-* -->
+
+      <footer class="footer">
+        <div class="footer__email">
+          <i class="fas fa-envelope footer__email--icon"></i>
+          <h3 class="heading-quantienary">gkaframanis@gmail.com</h3>
+        </div>
+        <div class="footer__social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100011450656355"
+            class="footer__social--link"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/grigorios-kaframanis" class="footer__social--link" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com/kaframanis" class="footer__social--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/gkaframanis" class="footer__social--link" target="_blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </div>
+        <div class="footer__copyright">
+          <p>&copy; Copyright Grigorios Kaframanis <span id="year"></span></p>
+          <p>All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript file -->
+    <script src="js/mainNav.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/copyright.js"></script>
+  </body>
+</html>
