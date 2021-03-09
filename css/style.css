@@ -616,6 +616,9 @@ i {
           .education__carousel .gallery__carousel--images img {
             max-width: 100%;
             object-fit: cover; }
+            @media screen and (-webkit-min-device-pixel-ratio: 0) {
+              .education__carousel .gallery__carousel--images img {
+                height: 100%; } }
         .education__carousel .gallery__carousel--buttons {
           position: absolute;
           top: calc(50% - 3vw);
