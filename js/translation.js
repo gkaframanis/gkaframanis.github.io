@@ -3,7 +3,7 @@ var linguJSON = {
         {
             "lang_name": "English",
             "lang_code": "en",
-            "url_pattern": "www.gkaframanis.github.io/"
+            "url_pattern": "https://gkaframanis.github.io/"
         },
 
         {
