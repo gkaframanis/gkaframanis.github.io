@@ -81,7 +81,7 @@ body {
 .heading-quartenary,
 .heading-primary--main,
 .heading-primary--sub {
-  font-family: "Itim", cursive; }
+  font-family: "Helvetica", sans-serif; }
 
 .heading-primary--profile {
   font-size: 4rem;
@@ -488,6 +488,7 @@ i {
       .showcase__right {
         padding-right: 0; } }
     .showcase__right span {
+      display: block;
       display: flex;
       justify-content: center;
       align-items: center; }
