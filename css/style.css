@@ -82,10 +82,8 @@ body {
 .heading-primary--main {
   display: block;
   font-size: 4.8rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5rem; }
-  .heading-primary--main-gr {
-    letter-spacing: 0.7rem; }
   @media only screen and (max-width: 87.5em) {
     .heading-primary--main {
       letter-spacing: 0.1rem; } }
@@ -102,9 +100,6 @@ body {
   font-size: 4rem;
   font-weight: 400;
   letter-spacing: 0.5rem; }
-  .heading-primary--sub-gr {
-    font-size: 3rem;
-    letter-spacing: 0.3rem; }
   @media only screen and (max-width: 87.5em) {
     .heading-primary--sub {
       letter-spacing: 0.1rem; } }
@@ -114,7 +109,7 @@ body {
       font-size: 3.5rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-primary--sub {
-      font-size: 3.5rem; } }
+      font-size: 3.2rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -134,6 +129,26 @@ body {
 .heading-quartenary {
   font-size: 2.5rem;
   text-transform: uppercase; }
+
+#main-gr {
+  letter-spacing: 0.7rem; }
+  @media only screen and (max-width: 75em) {
+    #main-gr {
+      font-size: 4.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    #main-gr {
+      font-size: 3.6rem; } }
+
+#sub-gr {
+  letter-spacing: 0.3rem;
+  font-size: 3.5rem; }
+  @media only screen and (max-width: 75em) {
+    #sub-gr {
+      letter-spacing: 0;
+      font-size: 3.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    #sub-gr {
+      font-size: 2.8rem; } }
 
 u-center-text {
   text-align: center !important; }
@@ -479,12 +494,24 @@ i {
     @media only screen and (max-width: 50em) {
       .showcase__right {
         padding-right: 0; } }
-    .showcase__right span {
-      display: block;
+    .showcase__right h1 {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center;
       align-items: center; }
+      .showcase__right h1 div {
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; }
+        .showcase__right h1 div span {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+      .showcase__right h1 div:last-child span:first-child {
+        padding-right: 1rem; }
     @media only screen and (max-width: 62.5em) {
       .showcase__right {
         padding-top: 7rem; } }
