@@ -7,6 +7,7 @@ const rightBtn = document.querySelector(".right-btn");
 const img = document.querySelectorAll("#imgs img");
 
 const bp800 = window.matchMedia("(max-width: 800px)");
+const bp1800 = window.matchMedia("(min-width: 1800px)");
 
 let index = 0;
 
@@ -24,9 +25,9 @@ function changeImage() {
     index = img.length - 1;
   }
   if (bp800.matches) {
-    imgs.style.transform = `translateX(${-index * 80}vw)`;
+    imgs.style.transform = `translateX(${-index * 75}vw)`;
   } else {
-    imgs.style.transform = `translateX(${-index * 50}vw)`;
+    imgs.style.transform = `translateX(${-index * 47}vw)`;
   }
 }
 
