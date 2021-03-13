@@ -596,6 +596,9 @@ i {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .education__carousel {
+        padding: 10rem 0; } }
     .education__carousel .gallery {
       align-self: flex-start;
       width: 52vw;
