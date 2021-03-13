@@ -406,14 +406,6 @@ i {
           background-color: #dfdddd;
           border-radius: 0.2rem;
           transition: all 0.4s ease-in-out; }
-      .header__nav--links {
-        flex-direction: column;
-        justify-content: center; }
-        .header__nav--links li {
-          width: 100%;
-          margin-bottom: 4vh; }
-          .header__nav--links li a {
-            color: #dfdddd; }
   li {
     opacity: 0; }
     li:nth-child(1) {
@@ -439,7 +431,17 @@ i {
     .clicked .line-2 {
       opacity: 0; }
     .clicked .line-3 {
-      transform: rotateZ(405deg) translate(-0.8rem, -0.6rem); } }
+      transform: rotateZ(405deg) translate(-0.8rem, -0.6rem); }
+    .clicked .nav--links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .clicked .nav--links li {
+        width: 100%;
+        margin-bottom: 4vh; }
+        .clicked .nav--links li a {
+          color: #dfdddd; } }
 
 .showcase {
   height: 100vh;
